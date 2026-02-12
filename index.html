@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG</title>
+  </head>
+  <body>
+    <svg width="100" height="100" viewbox="0 0 100 100" fill="none">
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke="green"
+        stroke-width="10"
+        fill="none"
+      />
+      <polyline
+        points="35,55 50,70 70,40 "
+        stroke="green"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+    <br />
+    <svg width="300" height="130">
+      <rect
+        width="200"
+        height="100"
+        x="10"
+        y="10"
+        rx="20"
+        ry="20"
+        fill="black"
+      />
+      <polyline
+        points=" 10,80 50,80 80,80 150,80 210,80"
+        stroke="white"
+        stroke-width="20"
+      />
+    </svg>
+
+
+    
+    <!-- My own SVG -->
+    <div class="cake">
+      <svg width="200" height="200">
+        <!-- Cake base -->
+        <rect x="40" y="100" width="120" height="70" fill="#ffb6c1" />
+
+        <!-- Frosting -->
+        <rect x="40" y="80" width="120" height="30" fill="#fff0f5" />
+
+        <!-- Candle -->
+        <rect x="95" y="40" width="10" height="40" fill="orange" />
+
+        <!-- Flame -->
+        <circle cx="100" cy="35" r="10" fill="yellow" />
+      </svg>
+    </div>
+  </body>
+</html>
